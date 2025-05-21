@@ -1,0 +1,60 @@
+.intestazione {
+    background-color: #1b3552;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #253a53;
+    align-items:center;
+    height: 20px;
+    height: 40px;
+}
+div.menu a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.BarraLaterale{
+    background-color:rgb(236,240,241);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 18vw;
+    height: 80vh;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin: 15px;
+    float: left;
+}
+
+
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+.projects {
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+    gap: 20px;
+}
+.project-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+.project-card h3 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin: -15px -15px 10px -15px;
+    border-radius: 5px 5px 0 0;
+}
